@@ -19,11 +19,22 @@ This Laravel Eloquent extension provides recursive relationships using common ta
 
 ## Installation
 
+For Laravel 9+
+
+    composer require staudenmeir/laravel-adjacency-list:"^1.11"
+    
+Use this command if you are in PowerShell on Windows (e.g. in VS Code):
+
+    composer require staudenmeir/laravel-adjacency-list:"^^^^1.11"
+
+For Laravel < 9
+
     composer require staudenmeir/laravel-adjacency-list:"^1.0"
 
 Use this command if you are in PowerShell on Windows (e.g. in VS Code):
 
     composer require staudenmeir/laravel-adjacency-list:"^^^^1.0"
+
 
 ## Usage
 
